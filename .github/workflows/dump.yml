@@ -4,8 +4,8 @@ on:
   # Specify a cadence, don't set it too often
   # Uncomment `schedule:` and `- cron:` to activate scheduled running
   
-  # schedule:
-  #- cron: 0 0 * * *
+  schedule:
+  - cron: 0 0 * * *
   
   # Manually trigger a workflow
   workflow_dispatch:
@@ -28,7 +28,7 @@ env:
   DUMP_FILENAME: "dump.json"
 
   # Replace the URL here with the URL from the command `!levels`
-  LEADERBOARD_URL: "https://mee6.xyz/api/plugins/levels/leaderboard/{ID HERE}"
+  LEADERBOARD_URL: "https://mee6.xyz/en/leaderboard/390342113042366465"
 
 jobs:
   fetch-and-dump:
