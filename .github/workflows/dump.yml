@@ -28,7 +28,7 @@ env:
   DUMP_FILENAME: "dump.json"
 
   # Replace the URL here with the URL from the command `!levels`
-  LEADERBOARD_URL: "https://mee6.xyz/en/leaderboard/390342113042366465"
+  LEADERBOARD_URL: "https://mee6.xyz/api/plugins/levels/leaderboard/390342113042366465"
 
 jobs:
   fetch-and-dump:
