@@ -17,7 +17,7 @@ on:
 # LEADERBOARD_URL: url string 
 env:
   # How many pages of the leaderboard to scrape
-  ITER_COUNT: 300
+  ITER_COUNT: 75
   
   # How long to wait for each subsequent cURL request
   # >>> Don't set this too low or you'll trip Cloudflare's ratelimit
